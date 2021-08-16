@@ -1,0 +1,314 @@
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.sesion1{
+    background:#0c0c47;
+    height:757px;
+    overflow-y:hidden;
+    display:grid;
+   place-items:center;
+   overflow-x:hidden;
+   position:relative;
+}
+#nave{
+    width:300px;
+    position:absolute;
+    z-index:50;
+    top:200px;
+    right:550px;
+    transform:rotate(-46deg);
+    animation:nave 2s infinite linear;
+    animation-direction:alternate;
+    filter: drop-shadow(1px 10px 8px rgba(225, 228, 69,.6));
+   
+}
+@keyframes nave{
+    0%{
+        transform:translatey(20px) rotate(-46deg);
+    }
+}
+
+
+.star1, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .star9, .star10, .star11
+, .star12, .star13, .star14, .star15, .star16, .star17, .star18, .star19, .star20{
+    position:absolute;
+    top:60px;
+    left:500px;
+    background:#fff;
+    width:15px;
+    height:15px;
+    border-radius:10em;
+    box-shadow:0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff;
+
+}
+.star2{
+    top:400px;
+    left:1500px;
+    width:10px;
+    height:10px;
+    animation-name:stars;
+    animation-duration:25s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+    
+    
+}
+.star3{
+    left:1500px;
+    top:100px;
+    width:10px;
+    height:10px;
+    animation-name:stars;
+    animation-duration:25s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease;
+
+}
+.star4{
+    left:1500px;
+    top:600px;
+    width:10px;
+    height:10px;
+    animation-name:stars;
+    animation-duration:25s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-in;
+}
+.star5{
+    left:1500px;
+    top:200px;
+    width:10px;
+    height:10px;
+    animation-name:stars;
+    animation-duration:25s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out;
+}
+.star6{
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:25s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star7{
+
+    top:400px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease;
+}
+.star8{
+    top:680px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-in;
+
+
+}
+.star9{
+    top:250px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out;
+}
+.star10{
+    top:740px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+    
+
+}
+.star11{
+    top:120px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star12{
+    top:160px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-in-out;
+}
+.star13{
+    top:280px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star14{
+    top:360px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:35s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star15{
+    top:680px;
+    left:1500px;
+    z-index:10;
+    animation-name:stars;
+    animation-duration:40s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease;
+}
+.star16{
+    left:1500px;
+
+    top:400px;
+    z-index:60;
+    width:300px;
+    height:5px;
+    animation-name:starss;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star17{
+    left:1500px;
+
+    top:300px;
+    z-index:60;
+    width:300px;
+    height:3px;
+    animation-name:starss;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star18{
+    left:1500px;
+
+    top:500px;
+    z-index:60;
+    width:300px;
+    height:5px;
+    animation-name:starss;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star19{
+    left:1500px;
+
+    top:200px;
+    z-index:60;
+    width:300px;
+    height:5px;
+    animation-name:starss;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+.star20{
+    left:1500px;
+
+    top:600px;
+    z-index:60;
+    width:300px;
+    height:5px;
+    animation-name:starss;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+
+@keyframes stars{
+    0%{
+        transform:translatex(-1700px);
+    }
+}
+@keyframes starss{
+    0%{
+        transform:translatex(-2000px);
+    }
+}
+.star21{
+    position:absolute;
+    width:150px;
+    left:1500px;
+    height:150px;
+    background:#fbf960;
+    border-radius:10rem;
+    top:60px;
+    box-shadow:0 0 10px #fbf960,
+     0 0 20px #fbf960,
+     0 0 40px #fbf960,
+     0 0 80px #fbf960;
+     animation-name:starss;
+     animation-duration:30s;
+     animation-iteration-count:infinite;
+     animation-direction:reverse;
+     animation-timing-function:linear;
+}
+#planet, #earth{
+    position:absolute;
+    left:1500px;
+    width:60px;
+    bottom:30px;
+    opacity:.5;
+    filter:drop-shadow(1px 6px 4px rgba(255,255,255,.4));
+    animation-name:starss;
+    animation-duration:40s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out;
+}
+#earth{
+    width:50px;
+    top:300px;
+    animation-name:starss;
+    animation-duration:45s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-in;
+}
