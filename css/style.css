@@ -4,7 +4,7 @@ body{
 }
 .sesion1{
     background:#0c0c47;
-    height:757px;
+    height:100vh;
     overflow-y:hidden;
     display:grid;
    place-items:center;
